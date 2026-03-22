@@ -1,4 +1,4 @@
-import { useAuth } from "./components/AuthContext";
+import { useAuth } from "../components/AuthContext";
 import { FcGoogle } from "react-icons/fc";
 import { ImGithub } from "react-icons/im";
 import { FiGlobe, FiMapPin, FiUsers, FiBook, FiUserCheck, FiBriefcase } from "react-icons/fi";
