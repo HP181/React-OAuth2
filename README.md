@@ -24,12 +24,13 @@ src/
 │   ├── AuthContext.jsx       # Global auth state + user normalization
 │   ├── ProtectedRoute.jsx    # Redirects unauthenticated users to /login
 │   └── PublicRoute.jsx       # Redirects authenticated users to /dashboard
+    └── Navbar.jsx            # Top navigation with sign out
 ├── pages/
 │   ├── Login.jsx             # Login page with Google & GitHub buttons
 │   ├── Home.jsx              # Landing page (protected)
 │   └── Dashboard.jsx         # User profile page (protected)
-├── Navbar.jsx                # Top navigation with sign out
 └── App.jsx                   # Routes + AuthProvider wrapper
+└── main.jsx                   
 ```
 
 ---
